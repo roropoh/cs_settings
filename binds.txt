@@ -1,0 +1,12 @@
+bind "kp_end" "buy deagle;";
+bind "kp_leftarrow" "buy mag7;";
+bind "kp_downarrow" "buy m4a1; buy ak47;";
+bind "kp_pgdn" "buy famas; buy galilar;";
+bind "kp_5" "buy awp;";
+bind "kp_plus" "buy defuser;";
+bind "kp_home" "buy hegrenade;";
+bind "kp_uparrow" "buy flashbang;";
+bind "kp_pgup" "buy smokegrenade;";
+bind "kp_slash" "buy incgrenade;";
+bind "kp_enter" "buy vesthelm;";
+bind "kp_ins" "buy vest;";
