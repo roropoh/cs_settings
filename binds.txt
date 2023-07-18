@@ -14,3 +14,7 @@ bind "a" "+moveleft; r_cleardecals"
 bind "d" "+moveright; r_cleardecals"
 bind "w" "+forward; r_cleardecals"
 bind "s" "+back; r_cleardecals"
+
+sensitivity 1.6
+bind "MWHEELDOWN" "+jump"
+bind "MWHEELUP" "+jump"
