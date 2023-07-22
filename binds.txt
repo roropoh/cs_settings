@@ -18,3 +18,5 @@ bind "s" "+back; r_cleardecals"
 sensitivity 1.6
 bind "MWHEELDOWN" "+jump"
 bind "MWHEELUP" "+jump"
+bind "mouse4" "use weapon_smokegrenade" // backpage
+bind "mouse5" "use weapon_flashbang" // forwardpage
