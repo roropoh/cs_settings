@@ -15,7 +15,7 @@ bind "d" "+moveright;"
 bind "w" "+forward;"
 bind "s" "+back;"
 
-sensitivity 1.6
+sensitivity 1.65
 bind "MWHEELDOWN" "+jump"
 bind "MWHEELUP" "+jump"
 bind "mouse4" "use weapon_smokegrenade" // backpage
