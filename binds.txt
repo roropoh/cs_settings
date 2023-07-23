@@ -10,13 +10,15 @@ bind "kp_ins" "buy vest;"
 bind "kp_pgdn" "buy m4a1; buy ak47;"
 bind "kp_downarrow" "buy mag7;"
 
-bind "a" "+moveleft; r_cleardecals"
-bind "d" "+moveright; r_cleardecals"
-bind "w" "+forward; r_cleardecals"
-bind "s" "+back; r_cleardecals"
+bind "a" "+moveleft;" // r_cleardecals
+bind "d" "+moveright;"
+bind "w" "+forward;"
+bind "s" "+back;"
 
 sensitivity 1.6
 bind "MWHEELDOWN" "+jump"
 bind "MWHEELUP" "+jump"
 bind "mouse4" "use weapon_smokegrenade" // backpage
 bind "mouse5" "use weapon_flashbang" // forwardpage
+
+// CROSSHAIR CODE: CSGO-GQfAm-WN4hL-HXRCe-LHpKB-pUJvM
