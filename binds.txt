@@ -16,12 +16,16 @@ bind "d" "+moveright;"
 bind "w" "+forward;"
 bind "s" "+back;"
 
+bind "ALT" "player_ping"
+bind "SPACE" "+voicerecord"
+
 sensitivity 1.65
 bind "MWHEELDOWN" "+jump"
 bind "MWHEELUP" "+jump"
 bind "mouse4" "use weapon_smokegrenade" // backpage
 bind "mouse5" "use weapon_flashbang" // forwardpage
 
+//SOUND
 volume "0.5"
 voice_enable "1"
 voice_scale "1"
@@ -32,10 +36,26 @@ snd_roundstart_volume "0"
 snd_deathcamera_volume "0"
 snd_mapobjective_volume "0"
 
+//RADAR
 cl_hud_radar_scale "0.9"
 cl_radar_scale "0.4"
 cl_radar_always_centered "0"
 
-// CROSSHAIR CODE: CSGO-XzXMf-jAcQz-t4qj4-XAQf2-i2zQN
+//DROP BOMB
+bind g "use weapon_knife; use weapon_c4; drop; slot1"
 
-// Launch Options: -console -novid -tickrate 128
+//LOUDER SOUND WHEN WALKING
+alias +incvol "incrementvar volume 0 2 0.5;+speed";alias -incvol "incrementvar volume 0 2 -0.5;-speed";bind SHIFT +incvol
+
+//JUMP THROW BINDS
+alias "+jumpthrow" "+jump;-attack"; alias "-jumpthrow" "-jump"; bind "v" "+jumpthrow"
+
+//TAB FOR NET_GRAPH
+alias +netg "net_graph 1;+showscores";alias -netg "net_graph 0;-showscores";bind TAB "+netg";
+
+//CROSSHAIR CODE: CSGO-XzXMf-jAcQz-t4qj4-XAQf2-i2zQN
+
+//Launch Options: -console -novid -tickrate 128
+
+//TESTING
+bind p "sv_cheats 1; noclip"
