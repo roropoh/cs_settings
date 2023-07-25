@@ -56,4 +56,5 @@ alias +netg "net_graph 1;+showscores";alias -netg "net_graph 0;-showscores";bind
 
 //TESTING
 bind p "sv_cheats 1; noclip"
-bind o "sv_cheats 1;sv_infinite_ammo 1;sv_grenade_trajectory 1;mp_maxmoney 65535;mp_startmoney 65535;mp_afterroundmoney 65535;mp_buytime 60000;mp_buy_anywhere 1;mp_roundtime_defuse 60;mp_restartgame 1"
+bind o "sv_cheats 1;sv_infinite_ammo 1;sv_grenade_trajectory 1;mp_maxmoney 65535;mp_startmoney 65535;mp_afterroundmoney 65535;mp_buytime 60000;mp_buy_anywhere 1;mp_roundtime_defuse 60;mp_freezetime 0;mp_limitteams 0;mp_autoteambalance 0;mp_restartgame 1"
+
