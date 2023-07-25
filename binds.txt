@@ -1,3 +1,5 @@
+//ALL BINDINGS https://liquipedia.net/counterstrike/Bindings
+
 bind "kp_end" "buy p250;"
 bind "kp_5" "buy awp;"
 bind "kp_plus" "buy defuser;"
@@ -20,6 +22,7 @@ bind "ALT" "player_ping"
 bind "SPACE" "+voicerecord"
 
 sensitivity 1.65
+bind mwheelup +jump;bind mwheeldown +jump;
 bind "MWHEELDOWN" "+jump"
 bind "MWHEELUP" "+jump"
 bind "mouse4" "use weapon_smokegrenade" // backpage
