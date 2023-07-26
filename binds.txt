@@ -1,24 +1,22 @@
 //ALL BINDINGS https://liquipedia.net/counterstrike/Bindings
+//CROSSHAIR CODE: CSGO-XzXMf-jAcQz-t4qj4-XAQf2-i2zQN
+//Launch Options: -console -novid -tickrate 128
 
+sensitivity 1.65;
 bind kp_end "buy p250";
 bind kp_5 "buy awp;";
 bind kp_plus "buy defuser;";
 bind kp_home "buy hegrenade; use weapon_knife; use weapon_hegrenade";
-
 bind kp_uparrow "buy flashbang; use weapon_knife; use weapon_flashbang";
 bind kp_pgup "buy smokegrenade; use weapon_knife; use weapon_smokegrenade";
 bind kp_slash "buy incgrenade; buy molotov; use weapon_knife; use weapon_molotov; use weapon_incgrenade";
-
 bind kp_del "buy decoy; use weapon_knife; use weapon_decoy";
 bind kp_enter "buy vesthelm;";
 bind kp_ins "buy vest;";
 bind kp_pgdn "buy m4a1; buy ak47;";
 bind kp_downarrow "buy mag7;";
-
 bind a +moveleft; bind d +moveright; bind w +forward; bind s +back;
 bind "SPACE" "+voicerecord";
-
-sensitivity 1.65;
 bind MWHEELUP +jump;bind MWHEELDOWN +jump;
 bind "mouse4" "use weapon_smokegrenade"; bind "mouse5" "use weapon_flashbang";
 
@@ -26,7 +24,7 @@ bind "mouse4" "use weapon_smokegrenade"; bind "mouse5" "use weapon_flashbang";
 volume "0.5";
 voice_enable "1";
 voice_scale "1";
-snd_tensecondwarning_volume "0.3";
+snd_tensecondwarning_volume "0.1";
 snd_menumusic_volume "0";
 snd_roundend_volume "0";
 snd_roundstart_volume "0";
@@ -50,9 +48,6 @@ alias "+jumpthrow" "+jump;-attack"; alias "-jumpthrow" "-jump"; bind "v" "+jumpt
 //TAB FOR NET_GRAPH
 alias +netg "net_graph 1;+showscores";alias -netg "net_graph 0;-showscores";bind TAB "+netg";
 
-//CROSSHAIR CODE: CSGO-XzXMf-jAcQz-t4qj4-XAQf2-i2zQN
-
-//Launch Options: -console -novid -tickrate 128
 
 //TESTING
 bind p "sv_cheats 1; noclip"
