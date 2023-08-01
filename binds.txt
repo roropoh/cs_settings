@@ -21,6 +21,8 @@ bind MWHEELUP +jump;bind MWHEELDOWN +jump;
 bind "mouse4" "use weapon_smokegrenade"; bind "mouse5" "use weapon_flashbang";
 
 //SOUND
+// 5.1 SURROUND SOUND
+
 volume "0.5";
 voice_enable "1";
 voice_scale "1";
