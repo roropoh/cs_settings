@@ -1,8 +1,8 @@
 //ALL BINDINGS https://liquipedia.net/counterstrike/Bindings
-//CROSSHAIR CODE: CSGO-RiaU3-DDuB5-rCqXD-GUhfw-pevvE
+//CROSSHAIR CODE: CSGO-osppU-F7Yhx-hZJcV-2RPcf-WROpP
 //Launch Options: -console -novid -tickrate 128 +exec roropoh.cfg
 
-sensitivity 1.65;
+sensitivity 1.45;
 bind kp_end "buy p250";
 bind kp_5 "buy awp;";
 bind kp_plus "buy defuser;";
