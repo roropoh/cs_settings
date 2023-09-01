@@ -1,1 +1,1 @@
-# csgobuybinds
+# csbinds
