@@ -1,5 +1,5 @@
 //ALL BINDINGS https://liquipedia.net/counterstrike/Bindings
-//CROSSHAIR CODE: CSGO-osppU-F7Yhx-hZJcV-2RPcf-WROpP
+//CROSSHAIR CODE: CSGO-TQXAz-x2oDp-iu6iq-VkYhf-Jq3cQ
 //Launch Options: -console -novid -tickrate 128 +exec roropoh.cfg
 
 sensitivity 1.45;
