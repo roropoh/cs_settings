@@ -1,3 +1,7 @@
+// ALL BINDINGS https://totalcsgo.com/binds
+// CROSSHAIR CODE: CSGO-UKvRW-k6dMm-ujpRa-8pZsE-pBtdA
+
+
 bind "MOUSE_X" "yaw";
 bind "MOUSE_Y" "pitch"
 
@@ -15,16 +19,18 @@ bind kp_0 "buy vest;";
 bind kp_3 "buy m4a1; buy ak47;";
 bind kp_2 "buy mag7;";
 bind MWHEELUP +jump;bind MWHEELDOWN +jump;
+bind SPACE +voicerecord
 
 bind "mouse4" "slot8"; bind "mouse5" "slot7";
 
+alias "+jt" "+jump;" ; alias "+ta" "-attack; -attack2"; alias "-jt" "-jump";
+bind v "+jt;+ta;" 
 
 bind f "drop"; bind g +lookatweapon;
 
-//SOUND
+// SOUND
 volume 0.5
 voice_modenable true;
-voice_scale 0.75;
 snd_tensecondwarning_volume 0.1;
 snd_menumusic_volume 0;
 snd_roundaction_volume 0;
@@ -32,15 +38,30 @@ snd_roundend_volume 0.05;
 snd_roundstart_volume 0;
 snd_deathcamera_volume 0;
 snd_mapobjective_volume 0.0225;
-
+alias +incvol "incrementvar volume 0 2 0.5;+sprint";alias -incvol "incrementvar volume 0 2 -0.5;-sprint";bind SHIFT +incvol
 
 // RADAR
 cl_hud_radar_scale "0.9";
 cl_radar_scale "0.4";
 cl_radar_always_centered false;
 
+alias +netg "cl_showfps 2;cq_netgraph 1;+showscores";alias -netg "cl_showfps 0;cq_netgraph 0;-showscores";bind TAB "+netg";
 
-//TESTING
+// TESTING
 bind n "sv_cheats 1; noclip"
-bind o "sv_cheats 1;sv_infinite_ammo 1;sv_grenade_trajectory_prac_trailtime true;mp_maxmoney 65535;mp_startmoney 65535;mp_afterroundmoney 65535;mp_buytime 60000;mp_buy_anywhere 1;mp_roundtime_defuse 60;mp_freezetime 0;mp_limitteams 0;mp_autoteambalance false;mp_restartgame 1"
+bind o "sv_cheats 1;sv_infinite_ammo 1;sv_grenade_trajectory_prac_trailtime true;mp_maxmoney 65535;mp_startmoney 65535;mp_afterroundmoney 65535;mp_buytime 60000;mp_buy_anywhere 1;mp_roundtime_defuse 60;mp_freezetime 0;mp_limitteams 0;mp_autoteambalance false;bot_kick;mp_restartgame 1"
 
+// CROSSHAIR
+cl_crosshairstyle "4";
+cl_crosshaircolor "4";
+cl_crosshairsize "1.5";
+cl_crosshairgap "-3w";
+cl_crosshairalpha "200";
+cl_crosshairusealpha "1";
+cl_crosshairthickness "1";
+cl_crosshair_drawoutline "0";
+cl_crosshair_outlinethickness "1";
+cl_crosshairdot "0";
+cl_crosshair_t "0";
+cl_crosshairgap_useweaponvalue "0";
+hud_showtargetid "0";
