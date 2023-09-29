@@ -43,11 +43,14 @@ cl_hud_radar_scale "0.9";
 cl_radar_scale "0.4";
 cl_radar_always_centered false;
 
-alias +netg "cl_showfps 2;cq_netgraph 1;+showscores";alias -netg "cl_showfps 0;cq_netgraph 0;-showscores";bind TAB "+netg";
-
 // TESTING
 bind n "sv_cheats 1; noclip"
 bind o "sv_cheats 1;sv_infinite_ammo 1;sv_grenade_trajectory_prac_trailtime true;mp_maxmoney 65535;mp_startmoney 65535;mp_afterroundmoney 65535;mp_buytime 60000;mp_buy_anywhere 1;mp_roundtime_defuse 60;mp_freezetime 0;mp_limitteams 0;mp_autoteambalance false;bot_kick;mp_restartgame 1"
+
+// alias +netg "cl_showfps 2;cq_netgraph 1;+showscores";alias -netg "cl_showfps 0;cq_netgraph 0;-showscores";bind TAB "+netg";
+
+cq_netgraph 1
+bind TAB "+showscores"
 
 bind 1 "slot1 ; cl_crosshairsize 1.5"; bind 2 "slot2 ; cl_crosshairsize 1.5"; bind 3 "slot3 ; cl_crosshairsize 1.5"
 bind "mouse4" "slot8 ; cl_crosshairsize 1000"; bind "mouse5" "slot7";
