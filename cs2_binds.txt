@@ -45,15 +45,15 @@ cl_radar_always_centered false;
 
 // TESTING
 bind n "sv_cheats 1; noclip"
-bind o "sv cheats 1; bot_kick; sv_infinite_ammo 1; ammo_grenade_limit_total 5; mp_warmup_end; mp_freezetime 0; mp_roundtime 60; mp_roundtime_defuse 60; sv_showimpacts 1; mp_limitteams 0; mp_autoteambalance 0; mp_maxmoney 65535;mp_startmoney 65535;mp_afterroundmoney 65535; mp_buytime 60000; mp_buy_anywhere 1; mp_restartgame 1; sv_grenade_trajectory_prac_pipreview true"
+bind o "sv_cheats 1; bot_kick; sv_infinite_ammo 1; ammo_grenade_limit_total 5; mp_warmup_end; mp_freezetime 0; mp_roundtime 60; mp_roundtime_defuse 60; sv_showimpacts 1; mp_limitteams 0; mp_autoteambalance 0; mp_maxmoney 65535; mp_startmoney 65535; mp_afterroundmoney 65535; mp_buytime 60000; mp_buy_anywhere 1; mp_restartgame 1; sv_grenade_trajectory_prac_pipreview true"
 
 // alias +netg "cl_showfps 2;cq_netgraph 1;+showscores";alias -netg "cl_showfps 0;cq_netgraph 0;-showscores";bind TAB "+netg";
 
-cq_netgraph 1
+cq_netgraph 0
 bind TAB "+showscores"
 
-bind 1 "slot1 ; cl_crosshairsize 1.5"; bind 2 "slot2 ; cl_crosshairsize 1.5"; bind 3 "slot3 ; cl_crosshairsize 1.5"
-bind "mouse4" "slot8 ; cl_crosshairsize 1000"; bind "mouse5" "slot7";
+bind 1 "slot1"; bind 2 "slot2"; bind 3 "slot3"
+bind "mouse4" "slot8"; bind "mouse5" "slot7";
 
 // CROSSHAIR
 cl_crosshairstyle "4";
