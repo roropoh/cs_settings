@@ -18,7 +18,7 @@ bind kp_divide "buy incgrenade; buy molotov; use weapon_knife; slot10";
 bind kp_del "buy decoy; use weapon_knife; slot9";
 bind kp_enter "buy vesthelm;";
 bind kp_0 "buy vest;";
-bind kp_3 "buy m4a1; buy ak47;";
+bind kp_3 "buy m4a1_silencer; buy ak47;";
 bind kp_2 "buy mag7;";
 
 alias "+jt" "+jump;" ; alias "+ta" "-attack; -attack2"; alias "-jt" "-jump";
