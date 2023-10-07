@@ -60,7 +60,7 @@ bind "mouse4" "slot8"; bind "mouse5" "slot7";
 cl_crosshairstyle "4";
 cl_crosshaircolor "4";
 cl_crosshairsize "2";
-cl_crosshairgap "-1";
+cl_crosshairgap "-2.5";
 cl_crosshairalpha "200";
 cl_crosshairusealpha "1";
 cl_crosshairthickness "0.5";
