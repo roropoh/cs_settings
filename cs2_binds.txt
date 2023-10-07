@@ -1,8 +1,9 @@
 // ALL BINDINGS https://totalcsgo.com/binds
+// Launch Options: +exec ro.cfg +sv_cheats 1 -insecure
 
 bind "MOUSE_X" "yaw";
 bind "MOUSE_Y" "pitch"
-sensitivity 1.7;
+sensitivity 1.45;
 
 bind MWHEELUP +jump;bind MWHEELDOWN +jump;
 bind SPACE +voicerecord
@@ -59,11 +60,11 @@ bind "mouse4" "slot8"; bind "mouse5" "slot7";
 cl_crosshairstyle "4";
 cl_crosshaircolor "4";
 cl_crosshairsize "2";
-cl_crosshairgap "-2";
+cl_crosshairgap "-1";
 cl_crosshairalpha "200";
 cl_crosshairusealpha "1";
-cl_crosshairthickness "0.25";
-cl_crosshair_drawoutline "1";
+cl_crosshairthickness "0.5";
+cl_crosshair_drawoutline "0";
 cl_crosshair_outlinethickness "1";
 cl_crosshairdot "0";
 cl_crosshair_t "0";
