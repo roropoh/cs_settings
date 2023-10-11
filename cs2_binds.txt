@@ -1,5 +1,4 @@
 // ALL BINDINGS https://totalcsgo.com/binds
-// Launch Options: +exec ro.cfg +sv_cheats 1 -insecure
 
 bind "MOUSE_X" "yaw";
 bind "MOUSE_Y" "pitch"
@@ -58,12 +57,12 @@ bind "mouse4" "slot8"; bind "mouse5" "slot7";
 
 // CROSSHAIR
 cl_crosshairstyle "4";
-cl_crosshaircolor "4";
-cl_crosshairsize "2";
-cl_crosshairgap "-2.5";
-cl_crosshairalpha "200";
+cl_crosshaircolor "1";
+cl_crosshairsize "1";
+cl_crosshairgap "-4";
+cl_crosshairalpha "255";
 cl_crosshairusealpha "1";
-cl_crosshairthickness "0.5";
+cl_crosshairthickness "1";
 cl_crosshair_drawoutline "0";
 cl_crosshair_outlinethickness "1";
 cl_crosshairdot "0";
