@@ -1,4 +1,5 @@
 // ALL BINDINGS https://totalcsgo.com/binds
+// Good settings https://www.dexerto.com/counter-strike-2/counter-strike-2-best-settings-cs2-settings-for-max-fps-competitive-advantages-2274866/
 
 bind "MOUSE_X" "yaw";
 bind "MOUSE_Y" "pitch"
