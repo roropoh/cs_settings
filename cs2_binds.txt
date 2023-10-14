@@ -1,5 +1,6 @@
 // ALL BINDINGS https://totalcsgo.com/binds
-// Good settings https://www.dexerto.com/counter-strike-2/counter-strike-2-best-settings-cs2-settings-for-max-fps-competitive-advantages-2274866/
+// Good settings: https://www.dexerto.com/counter-strike-2/counter-strike-2-best-settings-cs2-settings-for-max-fps-competitive-advantages-2274866/
+// Crosshair tempaltes: https://www.dexerto.com/csgo/best-csgo-crosshair-codes-used-by-pros-s1mple-zywoo-niko-2179701/
 
 bind "MOUSE_X" "yaw";
 bind "MOUSE_Y" "pitch"
