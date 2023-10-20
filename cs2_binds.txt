@@ -4,7 +4,7 @@
 
 bind "MOUSE_X" "yaw";
 bind "MOUSE_Y" "pitch"
-sensitivity 0.62;
+sensitivity 0.51;
 
 bind MWHEELUP +jump;bind MWHEELDOWN +jump;
 bind SPACE +voicerecord
