@@ -4,7 +4,7 @@
 
 bind "MOUSE_X" "yaw";
 bind "MOUSE_Y" "pitch"
-sensitivity 0.51;
+sensitivity 0.40;
 
 bind MWHEELUP +jump;bind MWHEELDOWN +jump;
 bind SPACE +voicerecord
@@ -60,10 +60,10 @@ bind "mouse4" "slot8"; bind "mouse5" "slot7";
 // CROSSHAIR
 cl_crosshairstyle "4";
 cl_crosshaircolor "5";
-cl_crosshairsize "1.199835";
+cl_crosshairsize "0.538888";
 cl_crosshairgap "-3.261280";
-cl_crosshairthickness "0.288897";
-cl_crosshairalpha "255";
+cl_crosshairthickness "0.724739";
+cl_crosshairalpha "150";
 cl_crosshairusealpha "1";
 cl_crosshair_drawoutline "0";
 cl_crosshair_outlinethickness "0";
