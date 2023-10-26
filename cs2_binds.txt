@@ -4,7 +4,6 @@
 
 bind "MOUSE_X" "yaw";
 bind "MOUSE_Y" "pitch"
-// Mouse PSI: 800
 sensitivity 1;
 
 bind MWHEELUP +jump;bind MWHEELDOWN +jump;
