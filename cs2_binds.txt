@@ -65,7 +65,7 @@ cl_crosshairgap "-3.261280";
 cl_crosshairthickness "0.724739";
 cl_crosshairalpha "150";
 cl_crosshairusealpha "1";
-cl_crosshair_drawoutline "0";
+cl_crosshair_drawoutline "1";
 cl_crosshair_outlinethickness "0";
 cl_crosshairdot "1";
 cl_crosshair_t "0";
