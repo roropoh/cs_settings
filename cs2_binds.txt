@@ -11,6 +11,7 @@ bind SPACE +voicerecord
 
 // BUY BINDS
 bind kp_1 "buy p250";
+bind kp_4 "buy deagle;"
 bind kp_5 "buy awp;";
 bind kp_plus "buy defuser;";
 bind kp_7 "buy hegrenade; use weapon_knife; slot6";
@@ -21,7 +22,7 @@ bind kp_del "buy decoy; use weapon_knife; slot9";
 bind kp_enter "buy vesthelm;";
 bind kp_0 "buy vest;";
 bind kp_3 "buy m4a1_silencer; buy ak47;";
-bind kp_2 "buy mag7;";
+bind kp_2 "buy xm1014;";
 
 alias "+jt" "+jump;" ; alias "+ta" "-attack; -attack2"; alias "-jt" "-jump";
 bind v "+jt;+ta;" 
@@ -60,15 +61,15 @@ bind "mouse4" "slot8"; bind "mouse5" "slot7";
 
 // CROSSHAIR
 cl_crosshairstyle "4";
-cl_crosshaircolor "5";
+cl_crosshaircolor "1";
 cl_crosshairsize "0.538888";
 cl_crosshairgap "-3.261280";
 cl_crosshairthickness "0.724739";
-cl_crosshairalpha "150";
+cl_crosshairalpha "255";
 cl_crosshairusealpha "1";
 cl_crosshair_drawoutline "1";
 cl_crosshair_outlinethickness "0";
-cl_crosshairdot "1";
+cl_crosshairdot "";
 cl_crosshair_t "0";
 cl_crosshairgap_useweaponvalue "0";
 hud_showtargetid "1";
