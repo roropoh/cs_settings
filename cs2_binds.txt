@@ -30,7 +30,7 @@ bind v "+jt;+ta;"
 bind f "drop"; bind g +lookatweapon;
 
 // SOUND
-volume 0.5
+volume 1
 voice_modenable true;
 snd_tensecondwarning_volume 0.1;
 snd_menumusic_volume 0;
