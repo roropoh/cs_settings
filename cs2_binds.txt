@@ -63,9 +63,9 @@ bind "mouse4" "slot8"; bind "mouse5" "slot7";
 cl_crosshairstyle "4";
 cl_crosshaircolor "1";
 cl_crosshairsize "1.5";
-cl_crosshairgap "-2.2";
+cl_crosshairgap "-2";
 cl_crosshairthickness "0.1";
-cl_crosshairalpha "200";
+cl_crosshairalpha "220";
 cl_crosshairusealpha "1";
 cl_crosshair_drawoutline "1";
 cl_crosshair_outlinethickness "1";
@@ -75,3 +75,7 @@ cl_crosshairgap_useweaponvalue "0";
 hud_showtargetid "1";
 
 cl_teamid_overhead_mode 1
+
+// HUD
+hud_scaling 1.1
+cl_hud_color 2
