@@ -39,7 +39,7 @@ snd_roundend_volume 0.05;
 snd_roundstart_volume 0;
 snd_deathcamera_volume 0;
 snd_mapobjective_volume 0.0225;
-alias +incvol "incrementvar volume 0 2 0.5;+sprint";alias -incvol "incrementvar volume 0 2 -0.5;-sprint";bind SHIFT +incvol
+//alias +incvol "incrementvar volume 0 2 0.5;+sprint";alias -incvol "incrementvar volume 0 2 -0.5;-sprint";bind SHIFT +incvol
 
 // RADAR
 cl_hud_radar_scale "0.9";
