@@ -39,7 +39,7 @@ snd_roundend_volume 0.05;
 snd_roundstart_volume 0;
 snd_deathcamera_volume 0;
 snd_mapobjective_volume 0.0225;
-bind SHIFT +sprint	;
+bind SHIFT +sprint;
 //alias +incvol "incrementvar volume 0 2 0.5;+sprint";alias -incvol "incrementvar volume 0 2 -0.5;-sprint";bind SHIFT +incvol
 
 // RADAR
@@ -64,7 +64,7 @@ bind "mouse4" "slot8"; bind "mouse5" "slot7";
 cl_crosshairstyle "4";
 cl_crosshaircolor "1";
 cl_crosshairsize "1.5";
-cl_crosshairgap "-2";
+cl_crosshairgap "-2.5";
 cl_crosshairthickness "0.1";
 cl_crosshairalpha "220";
 cl_crosshairusealpha "1";
