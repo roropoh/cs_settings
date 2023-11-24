@@ -1,4 +1,5 @@
 // ALL BINDINGS https://totalcsgo.com/binds
+// CSGO/CS2: Keyboard Keys / Bind Key Codes (2023) https://steamcommunity.com/sharedfiles/filedetails/?id=2498088800
 // Good settings: https://www.dexerto.com/counter-strike-2/counter-strike-2-best-settings-cs2-settings-for-max-fps-competitive-advantages-2274866/
 // Crosshair tempaltes: https://www.dexerto.com/csgo/best-csgo-crosshair-codes-used-by-pros-s1mple-zywoo-niko-2179701/
 
@@ -10,19 +11,19 @@ bind MWHEELUP +jump;bind MWHEELDOWN +jump;
 bind SPACE +voicerecord
 
 // BUY BINDS
-bind kp_1 "buy p250";
-bind kp_4 "buy deagle;"
-bind kp_5 "buy awp;";
-bind kp_plus "buy defuser;";
-bind kp_7 "buy hegrenade; use weapon_knife; slot6";
-bind kp_8 "buy flashbang; use weapon_knife; slot7";
-bind kp_9 "buy smokegrenade; use weapon_knife; slot8";
-bind kp_divide "buy incgrenade; buy molotov; use weapon_knife; slot10";
-bind kp_del "buy decoy; use weapon_knife; slot9";
-bind kp_enter "buy vesthelm;";
-bind kp_0 "buy vest;";
-bind kp_3 "buy m4a1_silencer; buy ak47;";
-bind kp_2 "buy xm1014;";
+bind del "buy p250";
+bind ins "buy deagle;"
+bind home "buy awp;";
+bind \ "buy defuser;";
+bind , "buy hegrenade; use weapon_knife; slot6";
+bind . "buy flashbang; use weapon_knife; slot7";
+bind / "buy smokegrenade; use weapon_knife; slot8";
+bind ; "buy incgrenade; buy molotov; use weapon_knife; slot10";
+bind ' "buy decoy; use weapon_knife; slot9";
+bind ]  "buy vesthelm;";
+bind [ "buy vest;";
+bind pgdn "buy m4a1_silencer; buy ak47;";
+bind end "buy xm1014;";
 
 alias "+jt" "+jump;" ; alias "+ta" "-attack; -attack2"; alias "-jt" "-jump";
 bind v "+jt;+ta;" 
