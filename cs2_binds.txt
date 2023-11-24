@@ -23,7 +23,7 @@ bind "'" "buy incgrenade; buy molotov; use weapon_knife; slot10";
 bind ]  "buy vesthelm;";
 bind [ "buy vest;";
 bind pgdn "buy m4a1_silencer; buy ak47;";
-bind pgup "buy mp9";
+bind pgup "buy mp9; buy mac10";
 bind end "buy xm1014;";
 
 alias "+jt" "+jump;" ; alias "+ta" "-attack; -attack2"; alias "-jt" "-jump";
