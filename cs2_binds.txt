@@ -7,7 +7,8 @@ bind "MOUSE_X" "yaw";
 bind "MOUSE_Y" "pitch"
 sensitivity 1.2;
 
-bind MWHEELUP +jump;bind MWHEELDOWN +jump;
+// bind MWHEELUP +jump;
+bind MWHEELDOWN +jump;
 bind SPACE +voicerecord
 
 // BUY BINDS
@@ -65,8 +66,8 @@ bind "mouse4" "slot8"; bind "mouse5" "slot7";
 // CROSSHAIR
 cl_crosshairstyle "4";
 cl_crosshaircolor "4";
-cl_crosshairsize "5";
-cl_crosshairgap "-2.5";
+cl_crosshairsize "4";
+cl_crosshairgap "-2.2";
 cl_crosshairthickness "0.5";
 cl_crosshairalpha "220";
 cl_crosshairusealpha "1";
