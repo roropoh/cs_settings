@@ -66,7 +66,7 @@ bind "mouse4" "slot8"; bind "mouse5" "slot7";
 // CROSSHAIR
 cl_crosshairstyle "4";
 cl_crosshaircolor "4";
-cl_crosshairsize "12"
+cl_crosshairsize "4"
 cl_crosshairgap "-3";
 cl_crosshairthickness "0.5";
 cl_crosshairalpha "230";
