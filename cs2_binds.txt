@@ -3,6 +3,8 @@
 // Good settings: https://www.dexerto.com/counter-strike-2/counter-strike-2-best-settings-cs2-settings-for-max-fps-competitive-advantages-2274866/
 // Crosshair tempaltes: https://www.dexerto.com/csgo/best-csgo-crosshair-codes-used-by-pros-s1mple-zywoo-niko-2179701/
 
+// GAME PLAY
+
 bind "MOUSE_X" "yaw";
 bind "MOUSE_Y" "pitch"
 sensitivity 1.2;
@@ -43,7 +45,9 @@ snd_roundstart_volume 0;
 snd_deathcamera_volume 0;
 snd_mapobjective_volume 0.0225;
 bind SHIFT +sprint;
-//alias +incvol "incrementvar volume 0 2 0.5;+sprint";alias -incvol "incrementvar volume 0 2 -0.5;-sprint";bind SHIFT +incvol
+// EQ Profile: NATURAL
+// L/R Isolation: 50%
+// Perspective Correction: NO
 
 // RADAR
 cl_hud_radar_scale "0.9";
@@ -83,3 +87,18 @@ cl_teamid_overhead_mode 1
 // HUD
 hud_scaling 1.1
 cl_hud_color 2
+
+// VIDEO SETTINGS
+r_fullscreen_gamma 1.9 
+// Boost Player Contract: DISABLED
+// Wait for Vertical Sync: DISABLED
+// Multisampling Anti-Aliasing Mode: 2X MSAA
+// Global Shadow Quality: HIGH
+// Model / Texture Detai: MEDIUM
+// Texuture Filtering Mode: ANISOTROPIC 16X
+// Shader Detail: LOW
+// Partical Detail: LOW
+// Ambient Occlusion: MEDIUM
+// High Dynamic Range: QUALITY
+// FidelityFX Super Resolution: DISABLED (HIGHEST QUALITY)
+// NVIDIA Reflex Low Latency: ENABLED
