@@ -14,6 +14,7 @@ bind MWHEELDOWN +jump;
 bind SPACE +voicerecord
 
 // BUY BINDS
+bind "`" "toggleconsole"
 bind del "buy p250";
 bind ins "buy deagle;"
 bind home "buy awp;";
@@ -30,29 +31,26 @@ bind pgup "buy mp9; buy mac10";
 bind end "buy xm1014;";
 
 alias "+jt" "+jump;" ; alias "+ta" "-attack; -attack2"; alias "-jt" "-jump";
-bind v "+jt;+ta;" 
+bind v "+jt;+ta;"
 
 bind f "drop"; bind g +lookatweapon;
 
 // SOUND
-volume 1
+volume "1";
 voice_modenable true;
 snd_tensecondwarning_volume 0.1;
-snd_menumusic_volume 0;
-snd_roundaction_volume 0;
-snd_roundend_volume 0.05;
-snd_roundstart_volume 0;
-snd_deathcamera_volume 0;
-snd_mapobjective_volume 0.0225;
+snd_menumusic_volume "0";
+snd_roundaction_volume "0";
+snd_roundend_volume "0";
+snd_roundstart_volume "0";
+snd_deathcamera_volume "0";
+snd_mapobjective_volume "0";
+snd_mvp_volume "0";
+
 bind SHIFT +sprint;
 // EQ Profile: NATURAL
 // L/R Isolation: 50%
 // Perspective Correction: NO
-
-// RADAR
-cl_hud_radar_scale "0.9";
-cl_radar_scale "0.4";
-cl_radar_always_centered false;
 
 // TESTING
 bind n "sv_cheats 1; noclip"
@@ -69,27 +67,38 @@ bind "mouse4" "slot8"; bind "mouse5" "slot7";
 
 // CROSSHAIR
 cl_crosshairstyle "4";
-cl_crosshaircolor "4";
-cl_crosshairsize "4"
-cl_crosshairgap "-1";
-cl_crosshairthickness "0.4";
+cl_crosshaircolor "1";
+cl_crosshairsize "6"
+cl_crosshairgap "-3";
+cl_crosshairthickness "0.1";
 cl_crosshairalpha "255";
 cl_crosshairusealpha "1";
-cl_crosshair_drawoutline "1";
+cl_crosshair_drawoutline "0";
 cl_crosshair_outlinethickness "1";
 cl_crosshairdot "0";
 cl_crosshair_t "0";
 cl_crosshairgap_useweaponvalue "0";
-hud_showtargetid "1";
-
-cl_teamid_overhead_mode 1
 
 // HUD
-hud_scaling 1.1
-cl_hud_color 2
+hud_scaling "1.1";
+cl_hud_color "2";
+fps_max "500"
+cl_showfps "0"
+cl_teamid_overhead_mode "2"
+cl_hud_radar_scale "1";
+cl_radar_scale "0.6";
+cl_radar_always_centered false;
+cl_showloadout "1";
+cl_use_opens_buy_menu "0";
+cl_hide_avatar_images "2";
+viewmodel_presetpos "3";
+safezonex "0.90";
+hud_showtargetid "0";
+rate "1000000";
+cl_silencer_mode "0";
 
 // VIDEO SETTINGS
-r_fullscreen_gamma 1.9 
+r_fullscreen_gamma 1.9
 // Boost Player Contract: DISABLED
 // Wait for Vertical Sync: DISABLED
 // Multisampling Anti-Aliasing Mode: 2X MSAA
