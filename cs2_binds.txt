@@ -9,8 +9,8 @@ bind "MOUSE_X" "yaw";
 bind "MOUSE_Y" "pitch"
 sensitivity 1.2;
 
-// bind MWHEELUP +jump;
-bind MWHEELDOWN +jump;
+bind MWHEELUP +jump;
+// bind MWHEELDOWN +jump;
 bind SPACE +voicerecord
 
 // BUY BINDS
@@ -90,7 +90,7 @@ cl_radar_scale "0.6";
 cl_radar_always_centered false;
 cl_showloadout "1";
 cl_use_opens_buy_menu "0";
-cl_hide_avatar_images "2";
+cl_hide_avatar_images "0";
 viewmodel_presetpos "3";
 safezonex "0.90";
 hud_showtargetid "0";
