@@ -1,3 +1,5 @@
+// C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg
+
 // ALL BINDINGS https://totalcsgo.com/binds
 // CSGO/CS2: Keyboard Keys / Bind Key Codes (2023) https://steamcommunity.com/sharedfiles/filedetails/?id=2498088800
 // Good settings: https://www.dexerto.com/counter-strike-2/counter-strike-2-best-settings-cs2-settings-for-max-fps-competitive-advantages-2274866/
@@ -70,7 +72,7 @@ bind "mouse4" "slot8"; bind "mouse5" "slot7";
 cl_crosshairstyle "4";
 cl_crosshaircolor "1";
 cl_crosshairsize "6"
-cl_crosshairgap "-3";
+cl_crosshairgap "-5";
 cl_crosshairthickness "0.1";
 cl_crosshairalpha "255";
 cl_crosshairusealpha "1";
