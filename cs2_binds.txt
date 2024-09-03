@@ -32,8 +32,18 @@ bind pgdn "buy m4a1_silencer; buy ak47;";
 bind pgup "buy mp9; buy mac10";
 bind end "buy xm1014;";
 
-alias "+jt" "+jump;" ; alias "+ta" "-attack; -attack2"; alias "-jt" "-jump";
-bind v "+jt;+ta;"
+// alias "+jt" "+jump;" ; alias "+ta" "-attack; -attack2"; alias "-jt" "-jump";
+// bind v "+jt;+ta;"
+alias +muteh "unbind v"
+alias -muteh "bind v +jumpthrow"
+ 
+alias revert "bind mouse_x yaw"
+alias combo "-jump;revert;-muteh"
+alias +jumpthrow "+jump"
+alias -jumpthrow "-attack;muteh;bind mouse_x combo"
+ 
+bind v +jumpthrow
+
 
 bind f "drop"; bind g +lookatweapon;
 
