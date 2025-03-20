@@ -2,6 +2,9 @@
 
 Start easily with our default configs.
 
+Place `*.cfg` files in `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg`
+(You can probably navigate this through steam)
+
 Enter:
 
 `exec prac` – Starts Practice Mode
