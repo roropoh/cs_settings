@@ -11,6 +11,8 @@ Enter:
 
 `exec comp` – Starts Competitive Mode
 
-`exec live` – Starts a Competitive Match (run exec comp first)
+`exec overtime` - Starts Overtime Competitve Mode (NOT TESTED)
+
+`exec live` – Starts a Competitive Match (run `exec comp` or `exec overtime` first)
 
 Happy gaming! 🔥
